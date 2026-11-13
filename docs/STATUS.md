@@ -2,7 +2,7 @@
 
 **Atualizado em:** 2026-11-09  
 **Etapa atual:** Etapa 0 — fundamentos do ambiente e colaboração  
-**Status:** PRIMEIRO COMMIT LOCAL CONFIRMADO (`fc33bc9`); `git status` LIMPO E `git log` CONFIRMADOS; DOCUMENTAÇÃO AINDA FORA DO REPOSITÓRIO / Etapa 0 em andamento
+**Status:** Dois commits locais confirmados: `fc33bc9` e `00a06f8`. Documentação versionada localmente. Publicação no GitHub pendente.
 
 ## O que está confirmado
 
@@ -97,3 +97,11 @@ Aluno explica Java vs JavaScript, React Native vs Spring Boot, PostgreSQL, Git, 
 | 2026-11-09 | Aula 02 — primeiro commit local confirmado | Aluno executou `git commit -m "chore: inicia repositorio com exercicio Java e gitignore"`; Git retornou `[main (root-commit) fc33bc9]`, dois arquivos criados (`.gitignore` e `exercicios/java/OlaMundo.java`), nove inserções. **Sem saída de `git status`/`git log` ainda; sem publicação no GitHub.** | Executar `git status` e `git log -1 --oneline`; validar e preparar a inclusão da documentação de continuidade como segundo commit local. |
 
 | 2026-11-09 | Aula 02 — Desafio 09 e Git status/log validados | Aluno executou `git status`: `On branch main`, `nothing to commit, working tree clean`. `git log -1 --oneline`: `fc33bc9 (HEAD -> main) chore: inicia repositorio com exercicio Java e gitignore`. Explicou que sem novas alterações não há nada para registrar e que arquivos modificados seriam detectados pelo Git. Feedback: `nothing to commit` não significa ausência de commits. | Copiar documentação preparada para o repositório local; inspecionar `git status` antes do segundo commit. |
+
+## Atualização — 09/11/2026
+
+- Primeiro commit Java: `fc33bc9`.
+- Segundo commit de documentação: `00a06f8`.
+- Plano Mestre v1.1 incluído no repositório local.
+- Desafio 10 concluído.
+- Próximo passo: publicar o projeto no GitHub.
